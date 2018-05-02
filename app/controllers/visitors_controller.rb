@@ -8,7 +8,18 @@ class VisitorsController < ApplicationController
   end
 
   def feed
-byebug
+    client = Instagram.client(:access_token => session[:access_token])
+    @user = client.user 
+    response = client.user_recent_media
+    album = [].concat(response)
+    max_id = response.pagination.next_max_id
+    while !(max_id.to_s.empty?) do
+      response = client.user_recent_media(:max_id => max_id)
+      max_id = response.pagination.next_max_id
+      album.concat(response)
+    end
+    @album = album
+    byebug
   end
 
 end

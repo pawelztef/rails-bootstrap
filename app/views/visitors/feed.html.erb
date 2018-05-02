@@ -1,0 +1,11 @@
+<h1>Welcome <%= @user.username %></h1>
+<div class="row">
+  <% @album.each do |item| %>
+    <div class="col-lg-3 col-md-4 col-xs-6">
+      <a href="#" class="d-block mb-4 h-100">
+        <%# <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt=""> %>
+        <%= image_tag item.images.thumbnail.url %>
+      </a>
+    </div>
+  <% end %>
+</div>
