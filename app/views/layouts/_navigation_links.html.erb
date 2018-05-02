@@ -1,2 +1,2 @@
-<%# add navigation links to this file %>
-<li><%= link_to 'About', page_path('about') %></li>
+<%# TODO authorize_url refactor link %>
+<li><%= link_to 'Sign in with Inatagram', Instagram.authorize_url(redirect_uri: "http://localhost:3000/callback") %></li>
