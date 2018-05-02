@@ -19,7 +19,6 @@ class VisitorsController < ApplicationController
       album.concat(response)
     end
     @album = album
-    byebug
   end
 
 end
