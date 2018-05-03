@@ -11,12 +11,15 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'simple_form'
+
 gem 'instagram'
+gem 'masonry-rails'
+gem 'material_icons'
+
 
 group :development do
   gem 'web-console', '>= 3.3.0'

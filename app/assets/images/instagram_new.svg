@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="91.44mm"
+   height="91.44mm"
+   version="1.1"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   viewBox="0 0 9144 9144"
+   id="svg887"
+   sodipodi:docname="instagram_new.svg"
+   inkscape:version="0.92.2 (unknown)">
+  <metadata
+     id="metadata891">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1278"
+     inkscape:window-height="783"
+     id="namedview889"
+     showgrid="false"
+     inkscape:zoom="1.6030092"
+     inkscape:cx="172.8"
+     inkscape:cy="172.8"
+     inkscape:window-x="0"
+     inkscape:window-y="1039"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg887" />
+  <defs
+     id="defs878">
+    <style
+       type="text/css"
+       id="style876">  .fil0 {fill:#F0F0F0} .fil1 {fill:#011627;fill-rule:nonzero}  </style>
+  </defs>
+  <g
+     id="Layer_x0020_1">
+    <metadata
+       id="CorelCorpID_0Corel-Layer" />
+    <g
+       id="_2744492862240">
+      <polygon
+         class="fil0"
+         points="0,0 9144,0 9144,9144 0,9144 "
+         id="polygon881" />
+      <path
+         class="fil1"
+         d="M3345 2455l2454 0c245,0 467,100 628,262 162,161 262,383 262,628l0 2454c0,245 -100,467 -262,628 -161,162 -383,262 -628,262l-2454 0c-245,0 -467,-100 -628,-262 -162,-161 -262,-383 -262,-628l0 -2454c0,-245 100,-467 262,-628 161,-162 383,-262 628,-262zm2521 694c48,0 88,40 88,88 0,49 -40,88 -88,88 -49,0 -88,-39 -88,-88 0,-48 39,-88 88,-88zm-1294 241c653,0 1182,529 1182,1182 0,653 -529,1182 -1182,1182 -653,0 -1182,-529 -1182,-1182 0,-653 529,-1182 1182,-1182zm1013 1182c0,-559 -454,-1013 -1013,-1013 -559,0 -1013,454 -1013,1013 0,559 454,1013 1013,1013 559,0 1013,-454 1013,-1013zm214 -1947l-2454 0c-198,0 -378,81 -509,211 -130,131 -211,311 -211,509l0 2454c0,198 81,378 211,509 131,130 311,211 509,211l2454 0c198,0 378,-81 509,-211 130,-131 211,-311 211,-509l0 -2454c0,-198 -81,-378 -211,-509 -131,-130 -311,-211 -509,-211z"
+         id="path883" />
+    </g>
+  </g>
+</svg>

@@ -1,9 +1,15 @@
 <div class="container">
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Your Website 2014</p>
-            </div>
-        </div>
-    </footer>
+  <div class="row">
+    <div id="home" class="col-md-12 text-center">
+      <%= image_tag "insta.png" %>
+      <div class="content">
+        <h1>Let life surprise you</h1>
+        <p>
+        Ipsum dicta mollitia delectus sapiente inventore Expedita harum adipisci praesentium officiis ipsum doloremque Magnam alias esse nihil delectus.
+        </p>
+        <%# <%= link_to "Fetch images", Instagram.authorize_url(redirect_uri: "http://localhost:3000/callback"), class: 'btn-cust' %1> %>
+        <%= link_to 'Fetch images', Instagram.authorize_url(redirect_uri: 'https://obscure-peak-36944.herokuapp.com/callback'), class: 'btn-cust' %>
+      </div>
+    </div>
+  </div>
 </div>

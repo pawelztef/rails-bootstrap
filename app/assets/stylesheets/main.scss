@@ -1,0 +1,130 @@
+// import the CSS framework
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+}
+
+img {
+  @extend .img-responsive;
+  margin: 0 auto;
+}
+
+a {
+  color: #003569;
+  &:hover {
+    background-color: lighten(#003569, 80%);
+  }
+}
+
+.navbar-brand {
+  font-size: inherit;
+}
+
+.navbar-inst {
+  background: white;
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.column {
+  @extend .col-md-6;
+  @extend .text-center;
+}
+
+.form {
+  @extend .col-md-6;
+}
+
+.form-centered {
+  @extend .col-md-6;
+  @extend .text-center;
+}
+
+.submit {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-lg;
+}
+
+main {
+  @extend .container;
+  background-color: #f1f1f1;
+  padding: 0;
+  width: 100%;
+}
+
+section {
+  @extend .row;
+  margin-top: 20px;
+}
+
+footer {
+  color: darken(#f2f2f2, 25%);
+  background-color: white;
+  .container p {
+    padding: 15px 0;
+  }
+}
+
+.sec-nav {
+  margin-top: 50px;
+  h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 50px 0;
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: lighten(#003569, 10%);
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+.content-wrp {
+  min-height: calc(100vh - 55px);
+}
+
+div#home {
+  margin-top: 100px;
+  img {
+    width: 150px;
+  }
+  .content {
+    margin: 40px 0;
+    h1 {
+      font-size: 56px;
+      font-weight: bolder;
+      text-transform: uppercase;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #003569;
+    }
+    p {
+      width: 40%;
+      margin: 20px auto;
+      text-align: center;
+      color: #003569;
+      opacity: .5;
+      line-height: 1.6em;
+      padding-bottom: 20px;
+    }
+  }
+  .btn-cust {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #003569;
+    font-size: 24px;
+    background-color: #f1f1f1;
+    padding: 10px 60px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+  }
+  .btn-cust:hover {
+    background: white;
+    text-decoration: none;
+  }
+}

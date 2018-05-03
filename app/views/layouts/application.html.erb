@@ -4,17 +4,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "Rails Bootstrap" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Rails Bootstrap" %>">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Oleo+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
-    <main role="main">
-       <%= render 'layouts/messages' %>
-       <%= yield %>
-    </main>
+    <div class="content-wrp">
+      <header>
+        <%= render 'layouts/navigation' %>
+      </header>
+      <main role="main">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+      </main>
+    </div>
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; Pawel Stefaniak</p>
+      </div>
+    </footer>
   </body>
 </html>

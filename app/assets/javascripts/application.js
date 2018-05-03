@@ -13,4 +13,17 @@
 //= require jquery
 //= require rails-ujs
 //= require bootstrap-sprockets
+//= require masonry/jquery.masonry
 //= require_tree .
+
+$(window).load(function(){
+  var grid = $('#masonry-container').masonry({
+    itemSelector: '.box',
+    isFitWidth: true
+  });
+  function onLayout() {
+    $('#masonry-container').css('visibility', 'visible');
+  }
+  grid.on('layoutComplete', onLayout());
+});
+

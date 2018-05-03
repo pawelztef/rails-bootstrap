@@ -1,10 +1,14 @@
-<h1>Welcome <%= @user.username %></h1>
-<div class="row">
-  <% @album.each do |item| %>
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <%= image_tag item.images.thumbnail.url %>
-      </a>
+<div class="sec-nav text-center">
+  <h1>Welcome <%= @user.username %></h1>
+</div>
+<div class="container feed-container">
+  <div class="row">
+    <div id="masonry-container">
+      <% @album.each do |item| %>
+        <div class="box">
+          <%= image_tag item.images.low_resolution.url %>
+        </div>
+      <% end %>
     </div>
-  <% end %>
+  </div>
 </div>
