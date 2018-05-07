@@ -8,7 +8,8 @@
         Ipsum dicta mollitia delectus sapiente inventore Expedita harum adipisci praesentium officiis ipsum doloremque Magnam alias esse nihil delectus.
         </p>
         <%# <%= link_to "Fetch images", Instagram.authorize_url(redirect_uri: "http://localhost:3000/callback"), class: 'btn-cust' %1> %>
-        <%= link_to 'Fetch images', Instagram.authorize_url(redirect_uri: 'https://obscure-peak-36944.herokuapp.com/callback'), class: 'btn-cust' %>
+        <%# <%= link_to 'Fetch images', Instagram.authorize_url(redirect_uri: 'https://obscure-peak-36944.herokuapp.com/callback'), class: 'btn-cust' %1> %>
+        <%= link_to 'Fetch images', Instagram.authorize_url(redirect_uri: ENV["redirect_uri"]), class: 'btn-cust' %>
       </div>
     </div>
   </div>

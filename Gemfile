@@ -15,6 +15,7 @@ gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'simple_form'
+gem 'figaro'
 
 gem 'instagram'
 gem 'masonry-rails'
