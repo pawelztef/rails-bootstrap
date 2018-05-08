@@ -65,7 +65,7 @@ footer {
   color: darken(#f2f2f2, 25%);
   background-color: white;
   .container p {
-    padding: 15px 0;
+    padding: 10px 0;
   }
 }
 
@@ -109,6 +109,11 @@ div#home {
       opacity: .5;
       line-height: 1.6em;
       padding-bottom: 20px;
+    }
+    @media only screen and (max-width: 768px) {
+      p {
+        width: 95%;
+      }
     }
   }
   .btn-cust {
